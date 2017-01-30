@@ -416,6 +416,11 @@ The chain disappears in the clouds.
 ~
 0 -1 7914
 E
+chain~
+The chain reaches the clouds high above you.  It must take some really
+powerful magic to hold such a chain in place.
+~
+E
 sign~
 The sign points in all directions:
 
@@ -428,11 +433,6 @@ Someone has added the following with red paint:
 
    Up    - Redferne's Flying Citadel.
 
-~
-E
-chain~
-The chain reaches the clouds high above you.  It must take some really
-powerful magic to hold such a chain in place.
 ~
 S
 #3121
@@ -581,7 +581,7 @@ D2
 Through the solid iron bars you see the graveyard.
 ~
 grate~
-2 3106 3150
+2 3106 9000
 D3
 ~
 ~
@@ -701,7 +701,7 @@ The Waiting Room~
 along the walls and a long desk with a typewriter is placed in the middle of
 the room.
 ~
-30 d 0
+31 d 0
 D1
 It looks like some kind of office.
 ~
@@ -713,8 +713,10 @@ The exit west leads to Emerald Avenue.
 ~
 0 -1 3117
 E
-chair chairs~
-Not the very least comfortable.
+typewriter~
+It is an ancient Quifatronic T-1000 mk I.  These machines are known for their
+incredible durability, and for their even more incredible weight.  They make
+a Cray II look like a laptop.
 ~
 E
 desk~
@@ -722,10 +724,8 @@ An extremely heavy desk.  It is so large that it doesn't even need drawers.
 Everything can be stored on its top.
 ~
 E
-typewriter~
-It is an ancient Quifatronic T-1000 mk I.  These machines are known for their
-incredible durability, and for their even more incredible weight.  They make
-a Cray II look like a laptop.
+chair chairs~
+Not the very least comfortable.
 ~
 S
 #3138
@@ -735,22 +735,22 @@ polished but completely empty desk is standing in front of an armchair that
 looks so comfortable that it most of all resembles a bed with the head end
 raised slightly.
 ~
-30 d 0
+31 d 0
 D3
 The waiting room is to the west.
 ~
 ~
 0 -1 3137
 E
-desk~
-This desk is obviously very old.  Nevertheless it looks as if has never been
-used.
-~
-E
 chair armchair~
 This chair is really a masterpiece.  A chair where one can sit as comfortably
 as in a bed.  All auditoriums should be equipped with these things.  A shame
 that there wouldn't be room for the students too, though.
+~
+E
+desk~
+This desk is obviously very old.  Nevertheless it looks as if has never been
+used.
 ~
 S
 #3139
@@ -849,7 +849,7 @@ A Gravel Road In The Graveyard~
   You are on a well-kept gravel road that leads north-south through the
 graveyard.  On both sides of the road grow dark evergreen trees.
 ~
-34 0 1
+31 0 1
 D0
 The gravel road continues northwards.
 ~
@@ -885,15 +885,15 @@ Inside The Chapel~
 do not let much light through.  A few rows of worn wooden benches stand here
 and an ancient altar sits in the middle of the floor.
 ~
-34 ad 0
+31 ad 0
 D0
 The chapel door is made of dark wood.
 ~
 door~
 1 -1 3154
 E
-glass windows~
-The windows must be meant to be dark.  At least they are completely clean.
+benches rows~
+The benches are not of the comfortable kind.
 ~
 E
 altar~
@@ -902,8 +902,8 @@ that it seems less dusty than the rest of the room... someone must clean here
 regularly... maybe that old guy in Park Cafe, he looked like that sort...
 ~
 E
-benches rows~
-The benches are not of the comfortable kind.
+glass windows~
+The windows must be meant to be dark.  At least they are completely clean.
 ~
 S
 #3200
@@ -1010,4 +1010,4 @@ D3
 ~
 0 -1 3204
 S
-$
+$~
