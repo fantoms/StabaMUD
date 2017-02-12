@@ -33,7 +33,7 @@
 #
 
 # The port on which to run the MUD
-PORT=8000
+PORT=8024
 
 # Default flags to pass to the MUD server (see admin.txt for a description
 # of all flags).

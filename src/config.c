@@ -215,7 +215,7 @@ room_vnum donation_room_3 = NOWHERE;	/* unused - room for expansion */
  * Change the PORT= line in autorun instead of (or in addition to)
  * changing this.
  */
-ush_int DFLT_PORT = 8000;
+ush_int DFLT_PORT = 8024;
 
 /*
  * IP address to which the MUD should bind.  This is only useful if
@@ -227,7 +227,10 @@ ush_int DFLT_PORT = 8000;
  * course, that IP address must be one of your host's interfaces, or it
  * won't work.)
  */
-const char *DFLT_IP = NULL; /* bind to all interfaces */
+
+const char *DFLT_IP = "66.85.147.85"; /* bind to all interfaces */
+
+//const char *DFLT_IP = NULL; /* bind to all interfaces */
 /* const char *DFLT_IP = "192.168.1.1";  -- bind only to one interface */
 
 /* default directory to use as data directory */
