@@ -68,10 +68,10 @@
  * However, if you decide you want to have an all-out knock-down drag-out
  * PK Mud, just set pk_allowed to YES - and anything goes.
  */
-int pk_allowed = NO;
+int pk_allowed = YES;
 
 /* is playerthieving allowed? */
-int pt_allowed = NO;
+int pt_allowed = YES;
 
 /* minimum level a player must be to shout/holler/gossip/auction */
 int level_can_shout = 1;
@@ -100,7 +100,7 @@ int idle_rent_time = 48;
 int idle_max_level = LVL_GOD;
 
 /* should items in death traps automatically be junked? */
-int dts_are_dumps = YES;
+int dts_are_dumps = NO;
 
 /*
  * Whether you want items that immortals load to appear on the ground or not.
@@ -149,7 +149,7 @@ int immort_level_ok = 0;
 int free_rent = YES;
 
 /* maximum number of items players are allowed to rent */
-int max_obj_save = 30;
+int max_obj_save = 300;
 
 /* receptionist's surcharge on top of item costs */
 int min_rent_cost = 100;
@@ -215,7 +215,7 @@ room_vnum donation_room_3 = NOWHERE;	/* unused - room for expansion */
  * Change the PORT= line in autorun instead of (or in addition to)
  * changing this.
  */
-ush_int DFLT_PORT = 4000;
+ush_int DFLT_PORT = 8000;
 
 /*
  * IP address to which the MUD should bind.  This is only useful if
