@@ -140,12 +140,12 @@ The chapel door is made of dark wood.
 door~
 1 -1 9004
 E
-glass windows~
-The windows must be meant to be dark.  At least they are completely clean.
-~
-E
 benches rows~
 The benches are not of the comfortable kind.
+~
+E
+glass windows~
+The windows must be meant to be dark.  At least they are completely clean.
 ~
 S
 #9006
@@ -209,7 +209,7 @@ The undertaker's cottage~
 This is a sparsely furnished run-down shack.  There's not really much of
 anything here at all. 
 ~
-90 8 0
+90 d 0
 D3
 The doorway leads back out into the cemetery.
 ~
@@ -287,7 +287,7 @@ To the north lies another cemetery plot.
 ~
 ~
 0 -1 9009
-D1 to the east lies another cemetery plot.
+D1
 ~
 ~
 0 -1 9012
@@ -393,7 +393,7 @@ trees and broken branches litter the ground.  Although the trail is dark,
 these markers clearly show you the path.  The trail continues to the east,
 the cemetery lies west.
 ~
-90 4 3
+90 c 3
 D1
 Without the broken branches to show you the way, the trail would be impossible
 to follow.
@@ -432,7 +432,7 @@ You have stumbled into the lair of a barrow wight and his ghoul followers.
 This place reeks of decay.  Bones and decaying corpses are strewn about the
 place, and you really hope that you don't become part of this carnage.
 ~
-90 9 0
+90 ad 0
 D0
 The clearing lies back to the north.
 ~
@@ -714,12 +714,12 @@ on the door.
 door~
 1 9030 9030
 E
-grave stone~
-Here lies Someone.  R.I.P.
-~
-E
 door writing~
 The Great Tomb
+~
+E
+grave stone~
+Here lies Someone.  R.I.P.
 ~
 S
 #9027
@@ -813,7 +813,7 @@ The mausoleum is made of smooth marble.  It is quite cold in here but feels
 peaceful enough.  The very walls seem to glow blue and it showers the room
 in a ghostly light.  There is an iron vault embedded into the west wall.
 ~
-90 8 0
+90 d 0
 D1
 The iron door leads back out into the cemetery.
 ~
@@ -836,7 +836,7 @@ You rest your hand on the north wall of the vault for support, except that
 your hand disappears into the darkness.  This north wall must be only a
 clever illusion and not really exist at all!  You wonder what lies down there.
 ~
-90 13 0
+90 acd 0
 D0
 Total darkness.
 ~
@@ -856,7 +856,7 @@ doorway behind you seems to have disappeared.  Suddenly something occurs to
 you that sends chills up and down your spine.  You get a bad feeling that
 you are not alone in here!
 ~
-90 521 0
+90 adj 0
 D1
 You can't see a blasted thing!
 ~
@@ -871,7 +871,7 @@ killing) run around on the floor.  There is a door to the west which is
 pitch black in color.  The hallway continues to the east, you hear a faint
 moaning coming from that direction.
 ~
-90 9 0
+90 ad 0
 D1
 The hallway continues to the east.
 ~
@@ -894,7 +894,7 @@ The corridor continues both east and west.  It is very dirty in here, cobwebs
 hang from the ceiling corners and small bones litter the floor.  A faint 
 moaning is coming from the east.
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -914,7 +914,7 @@ south.  The passage way east looks as it hasn't been disturbed for some time
 and cobwebs seem to grow thick in that direction.  A faint moaning sound can
 be heard to the south.
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -937,7 +937,7 @@ The corridor continues both east and west.  It is very dirty in here, cobwebs
 hang from the ceiling corners and small bones litter the floor.  A faint 
 moaning is coming from the west.
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -956,7 +956,7 @@ are everywhere and seem to be getting thicker to the east.  You have a feeling
 that it's been a very long time since anyone has been in this part of the
 catacombs.
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -977,7 +977,7 @@ however.  The northern wall is in ruins as if something has broken it's
 way through.  Large blocks of stone litter the corridor.  You could probably
 squeeze through the hole if you so desired.
 ~
-90 13 0
+90 acd 0
 D1
 The corridor continues in that direction.
 ~
@@ -997,7 +997,7 @@ Closer examination reveals an archway to the south.  But so many cobwebs cover
 the archway that they've formed a completely opaque door.  The corridor
 continues back to the west.
 ~
-90 9 0
+90 ad 0
 D2
 The archway is blocked by a wall of cobwebs.
 ~
@@ -1016,7 +1016,7 @@ the middle of the room is relatively clear of them.  In each corner of this
 chamber, an ancient sarcophagus lies against the wall.  There is a low
 grinding noise as they all start to open.   The only exit is north.
 ~
-90 520 0
+90 dj 0
 D0
 A thick wall of cobwebs.
 ~
@@ -1029,7 +1029,7 @@ The corridor continues both north and south.  The floor is littered with
 broken bits of bone and small scraps of burial wrappings.  You hear a
 distinct moaning sound coming from the south.
 ~
-90 9 0
+90 ad 0
 D0
 The corridor continues in that direction.
 ~
@@ -1048,7 +1048,7 @@ broken bits of bone and small scraps of burial wrappings.  There is an iron
 door to the south and a loud moaning seems to be coming from the other
 side of it.
 ~
-90 9 0
+90 ad 0
 D0
 The corridor continues in that direction.
 ~
@@ -1073,7 +1073,7 @@ floor in the center of the room, and leaning over it, sobbing deeply, rests
 a banshee.  She seems to be too interested in crying and wailing than to
 notice you.  The door stands to the north and there are no other exits.
 ~
-90 521 0
+90 adj 0
 D0
 The catacombs are back to the north.
 ~
@@ -1086,7 +1086,7 @@ The corridor continues both east and west.  The floor is littered with
 broken bits of bone and small scraps of burial wrappings.  A distinct moaning
 sound can be heard back to the west.  
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -1105,7 +1105,7 @@ sound can be heard to the west.  The air is very stale in here.  The floor is
 littered with the decaying corpses of small rodents and splinters of broken
 bones.
 ~
-90 9 0
+90 ad 0
 D2
 The corridor continues in that direction.
 ~
@@ -1123,7 +1123,7 @@ The corridor splits here leaving exits to the north, east and south.  The air
 seems hot and dry and reeks of staleness.  Splinters of broken bone litter the
 floor and a few cobwebs hang from the ceiling.
 ~
-90 9 0
+90 ad 0
 D0
 The corridor continues in that direction.
 ~
@@ -1146,7 +1146,7 @@ The corridor here forms a small alcove with the passageway back to the west
 and a warped looking hardwood door to the east.  You fell chills up and down
 your spine as you approach the door.   You wonder what might lie behind it.
 ~
-90 9 0
+90 ad 0
 D1
 There lies before you a wooden door.
 ~
@@ -1165,7 +1165,7 @@ with age throughout the centuries.   There must be a fortune in here and you
 wonder who it once belonged to.  Transparent figures guard this treasure
 and they don't look happy that you have found it.
 ~
-90 521 0
+90 adj 0
 D3
 The doorway leads back into the catacombs.
 ~
@@ -1178,7 +1178,7 @@ The corridor here continues north and south.  The air here is very stale and
 the smell of decay and dry rot reeks heavily.  You wonder where exactly these
 catacombs lead.
 ~
-90 9 0
+90 ad 0
 D0
 The corridor continues in that direction.
 ~
@@ -1197,7 +1197,7 @@ door to the east with a flaming skull emblazoned on it.  The air is cold here
 and there is sort of a light draft.  The air seems to seep out from the cracks
 in the doorframe.
 ~
-90 9 0
+90 ad 0
 D0
 The corridor continues in that direction.
 ~
@@ -1221,7 +1221,7 @@ hall running east to west.  This corridor looks ancient.  Chunks of ceiling
 have fallen to the floor and there are small scraps of leather, bone, cloth,
 and other such items strewn about.
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -1240,7 +1240,7 @@ hall running east to west.  This corridor looks ancient.  Chunks of ceiling
 have fallen to the floor and there are small scraps of leather, bone, cloth,
 and other such items strewn about.
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -1259,7 +1259,7 @@ hall running east to west.  This corridor looks ancient.  Chunks of ceiling
 have fallen to the floor and there are small scraps of leather, bone, cloth,
 and other such items strewn about.
 ~
-90 9 0
+90 ad 0
 D1
 The corridor continues in that direction.
 ~
@@ -1279,7 +1279,7 @@ see the floor in that direction.  There is another passageway to the north.
 The there are small cracks in the walls here and the floor is littered with
 debris from the ceiling.
 ~
-90 9 0
+90 ad 0
 D0
 The corridor continues in that direction.
 ~
@@ -1304,7 +1304,7 @@ However, moments before you would have splattered to your death, a decaying
 corpse breaks your fall.   Looking around, you see that corpses fill this room.
 There are no exits.
 ~
-90 653 0
+90 acdhj 0
 E
 corpse body~
 They look like they've been here a while.  You hope you don't have to stay here
@@ -1317,7 +1317,7 @@ The corridor here stretches north to south.  This area looks extremely old and
 the ceiling seems to want to cave in.   There are larger and larger chunks of
 stone that have fallen in.  You wonder just how save this passageway is.
 ~
-90 9 0
+90 ad 0
 D0
 The corridor continues in that direction.
 ~
@@ -1336,7 +1336,7 @@ and you feel that if the passage did continue it wouldn't go much further
 without being blocked by rubble anyway.  The passageway heads south and there
 is a stone door to the west.  Looks like there is an inscription on the door.
 ~
-90 9 0
+90 ad 0
 D2
 The corridor continues in that direction.
 ~
@@ -1365,7 +1365,7 @@ diamonds.  You do not like the way it looks back at you and seems to grin.
 You feel a presence of great evil in this room and you feel that you should
 turn back, before something bad happens.
 ~
-90 521 0
+90 adj 0
 D1
 The only exit to this room lies in that direction.
 ~
@@ -1378,7 +1378,7 @@ You have entered what looks like a waiting room.  There is a high vaulted
 ceiling here and an archway leads to the east.  There is a faint red light
 coming from the east and you hear what sounds like high voltage electricity.
 ~
-90 521 0
+90 adj 0
 D1
 You wonder what must lie beyond that archway.
 ~
@@ -1397,7 +1397,7 @@ cleric, but laughed in the face of the gods, so we put him down here for you
 to try and kill.  Black candles provide light as the Death Master attempts
 to bring life back into a once dead corpse.  
 ~
-90 521 0
+90 adj 0
 D1
 There is a faint outline of a door there.
 ~
@@ -1705,5 +1705,4 @@ grave stone~
 Here lies Someone.  R.I.P.
 ~
 S
-#99999
 $~
